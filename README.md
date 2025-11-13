@@ -2,18 +2,18 @@
 
 Instrukcja inicjalizacji strony projektu "Sklep"
 
-# Instalacja Node.js na hoście.
+### Instalacja Node.js na hoście.
 Lab1_WWSI_TI> node --version
 v22.12.0
 
-# Instalacja wszystkich potrzebnych modułów.
+### Instalacja wszystkich potrzebnych modułów.
 Lab1_WWSI_TI> npm install
 
-# Wygenerowanie bazy danych.
+### Wygenerowanie bazy danych.
 Lab1_WWSI_TI> npx prisma migrate dev --name init
 
-# Uruchomienie serwera NodeJS.
+### Uruchomienie serwera NodeJS.
 Lab1_WWSI_TI> npm run dev
 
-# Strona znajduje się pod podanym w terminalu adresem.
+### Strona znajduje się pod podanym w terminalu adresem.
 Library API running on http://localhost:3000
