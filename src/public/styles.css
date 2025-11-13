@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.panel {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+button {
+  margin-left: .5rem;
+}
+
+.btn-remove {
+  background-color: #e53935;   
+  color: #fff;                 
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;          
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.btn-remove:hover {
+  background-color: #c62828;   
+}
+
+#checkoutBtn {
+  background-color: #333;       
+  color: #fff;                  
+  padding: 14px 28px;           
+  font-size: 1.2rem;           
+  border: none;
+  border-radius: 8px;         
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+#checkoutBtn:hover {
+  background-color: #1e1e1e;
+  transform: scale(1.03); 
+}
+
+#checkoutBtn:active {
+  transform: scale(0.97);
+}
+
+.btn-add {
+  background-color: #43a047;
+  color: #fff;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.btn-add:hover {
+  background-color: #2e7d32;
+}
+
+#products li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* po najechaniu — lekki efekt */
+#products li:hover {
+  background: #f9f9f9;
+  border-color: #ccc;
+  transform: translateY(-1px);
+  transition: 0.15s ease;
+}
+
+/* Tekst produktu */
+.prod-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
